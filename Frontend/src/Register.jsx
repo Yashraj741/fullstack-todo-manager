@@ -32,7 +32,7 @@ const Register = ({ onRegister }) => {
         <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-4 text-black">Create an account</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
+                <div> 
                     <label className="block mb-1 text-sm text-gray-600">Name</label>
                     <input
                         type="text"
